@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Reparações | Marido de Aluguel e Serralheria Floripa</title>
+    <style>
+        :root {
+            --primary: #f39c12;
+            --secondary: #2c3e50;
+            --light: #f9f9f9;
+            --dark: #1a1a1a;
+        }
+
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; line-height: 1.6; color: var(--dark); }
+
+        header {
+            background: var(--secondary);
+            color: white;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid var(--primary);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1504148455328-4362779f4565?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .cta-button {
+            background: #25d366;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover { transform: scale(1.05); background: #128c7e; }
+
+        .services-container { padding: 50px 5%; max-width: 1200px; margin: 0 auto; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+
+        .service-item {
+            background: var(--light);
+            border-left: 5px solid var(--primary);
+            padding: 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        
+        .service-item:hover { background: #fff; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+        .service-item h4 { margin: 5px 0; color: var(--secondary); display: flex; align-items: center; gap: 10px; }
+
+        footer {
+            background: var(--secondary);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        .location-badge {
+            background: var(--primary);
+            color: var(--secondary);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .highlight-serralheria {
+            border-left-color: #e67e22 !important;
+            background-color: #fff9f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="margin:0;">🛠️ NICOLAS<span style="color:var(--primary)">REPARAÇÕES</span></h1>
+        <div class="location-badge">📍 Norte da Ilha - Floripa</div>
+    </header>
+
+    <section class="hero">
+        <h2>Reparos & Serralheria no Norte da Ilha</h2>
+        <p>Serviços profissionais em Ingleses, Canasvieiras, Rio Vermelho e Jurerê.</p>
+        <a href="https://wa.me/5548991047561?text=Olá%20Nicolas,%20preciso%20de%20um%20serviço%20de%20reparos/serralheria" class="cta-button">
+            Pedir Orçamento (48) 99104-7561
+        </a>
+    </section>
+
+    <div class="services-container">
+        <h2 style="text-align:center; color: var(--secondary); margin-bottom: 40px;">Meus Serviços Profissionais</h2>
+        <div class="services-grid">
+            
+            <div class="service-item highlight-serralheria">
+                <h4>🔥 Serralheria</h4>
+                <p>Reparos em portões, troca de roldanas, soldas em geral, conserto de grades e estruturas metálicas afetadas pela maresia.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🚿 Chuveiros</h4>
+                <p>Instalação nova, troca de resistência e revisão elétrica para sua segurança.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>📺 Suportes de TV</h4>
+                <p>Instalação técnica em paredes de alvenaria ou painéis, com acabamento perfeito.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🚰 Hidráulica</h4>
+                <p>Conserto de vazamentos, troca de torneiras, reparos em descargas e sifões.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>📦 Montagem de Móveis</h4>
+                <p>Montagem de móveis comprados online com ferramentas profissionais e rapidez.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>💡 Elétrica Rápida</h4>
+                <p>Troca de tomadas, instalação de luminárias, ventiladores de teto e disjuntores.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🖼️ Instalações Decorativas</h4>
+                <p>Fixação de quadros, espelhos, varões de cortina, persianas e prateleiras.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🚪 Portas e Janelas</h4>
+                <p>Ajustes de dobradiças, troca de fechaduras e regulagem de aberturas.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🧹 Manutenção Geral</h4>
+                <p>Limpeza de filtros de ar-condicionado e pequenos reparos residenciais.</p>
+            </div>
+
+            <div class="service-item">
+                <h4>🛡️ Redes de Proteção</h4>
+                <p>Instalação de redes de segurança em janelas e sacadas para pets e crianças.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <h3>Nicolas Reparações & Serralheria</h3>
+        <p>Soluções práticas para sua casa ou condomínio no Norte da Ilha.</p>
+        <p><strong>Aceito Pix e Cartões de Crédito/Débito 💳</strong></p>
+        <p style="opacity: 0.7; font-size: 0.8rem; margin-top: 20px;">© 2026 Florianópolis, SC</p>
+    </footer>
+
+</body>
+</html>
